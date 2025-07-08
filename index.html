@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure Essence – Home Cure Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌿 Pure Essence</h1>
+    <p>A fusion of natural products and home healing remedies for every age</p>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#adults">Adults</a></li>
+      <li><a href="#elderly">Elderly</a></li>
+      <li><a href="#women">Women</a></li>
+    </ul>
+  </nav>
+
+  <section id="children" class="section">
+    <h2>🧒 Kiddie Calm Care</h2>
+    <div class="remedy">
+      <h3>Fever</h3>
+      <p>Use tulsi leaf tea and sponge baths with lukewarm water.</p>
+      <h3>Cough</h3>
+      <p>Honey with turmeric and warm water (only for children above 1 year).</p>
+      <h3>Stomach Ache</h3>
+      <p>Ajwain seeds boiled in water, gentle tummy massage with castor oil.</p>
+      <p style="text-align:right;"><a href="childrenayurved.html" class="more-inline">More ℹ️</a></p>
+    </div>
+  </section>
+
+  <section id="adults" class="section">
+    <h2>👨 Adult Care Corner</h2>
+    <div class="remedy">
+      <h3>Stress</h3>
+      <p>Chamomile tea, deep breathing, and lavender oil diffusers help.</p>
+      <h3>Headache</h3>
+      <p>Apply peppermint oil to the temples, drink ginger tea.</p>
+      <h3>Indigestion</h3>
+      <p>Jeera water or warm lemon water early morning aids digestion.</p>
+      <p style="text-align:right;"><a href="adults.html" class="more-inline">More ℹ️</a></p>
+    </div>
+  </section>
+
+  <section id="elderly" class="section">
+    <h2>👵 Senior Recovery Spot</h2>
+    <div class="remedy">
+      <h3>Joint Pain</h3>
+      <p>Warm sesame oil massage and turmeric + pepper milk daily.</p>
+      <h3>Fatigue</h3>
+      <p>Dates soaked in milk and regular sunlight improve energy.</p>
+      <h3>Low Immunity</h3>
+      <p>Daily tulsi tea and giloy juice to boost natural immunity.</p>
+      <p style="text-align:right;"><a href="elderly.html" class="more-inline">More ℹ️</a></p>
+    </div>
+  </section>
+
+ <section id="gallery" class="section">
+  <h2>🌿 Natural Healing Gallery</h2>
+  <div class="gallery">
+    <div class="card" onclick="showModal('🌿 Turmeric', 'Anti-inflammatory & immunity booster. Mix with milk or apply paste for wounds.')">
+      <img src="turmeric.png" alt="Turmeric">
+    </div>
+    <div class="card" onclick="showModal('🍃 Aloe Vera', 'Skin soothing, heals burns and acne. Can also improve digestion.')">
+      <img src="alovera.png" alt="Aloe Vera">
+    </div>
+    <div class="card" onclick="showModal('🌱 Tulsi', 'Cough relief & immune booster. Drink as herbal tea.')">
+      <img src="tulasi.png" alt="Tulsi">
+    </div>
+    <div class="card" onclick="showModal('🌶️ Ginger', 'Relieves nausea and reduces inflammation. Use in tea or raw.')">
+      <img src="ginger.png" alt="Ginger">
+    </div>
+    <div class="card" onclick="showModal('🌿 Neem', 'Purifies blood & treats skin infections. Use paste or neem water.')">
+      <img src="neem.png" alt="Neem">
+    </div>
+  </div>
+
+</section>
+<div id="infoModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDesc"></p>
+  </div>
+</div>
+
+
+
+  <section id="women" class="section">
+    <h2>👩‍💂 Women's Wellness & Safety</h2>
+    <div class="remedy">
+      <h3>🩸 Menstrual Pain</h3>
+      <p>Ajwain water, warm compresses, and yoga stretches provide relief.</p>
+      <h3>🌼 Skin Care</h3>
+      <p>Use Multani mitti face packs, rose water toner, and sandalwood paste.</p>
+      <h3>🚨 Safety Tips</h3>
+      <p>Install location apps, carry emergency contacts, and keep pepper spray handy.</p>
+    </div>
+  </section>
+
+  <footer>
+    "A healthy outside starts from the inside." — Pure Essence 🌿
+  </footer>
+  
+  
+  <!-- In head or before </body> -->
+  <!-- <script>
+  function showModal(title, desc) {
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalDesc').textContent = desc;
+    document.getElementById('infoModal').style.display = 'block';
+  }
+</script> -->
+<script src="puree.js"></script>
+
+</body>
+</html>
