@@ -44,7 +44,6 @@ Pure-Essence/
 └── README.md
 ```
 
-*(Modify the folders above if your project structure is different.)*
 
 ---
 
@@ -69,21 +68,6 @@ Or use VS Code Live Server:
 
 ---
 
-## 📸 Screenshots
-
-You can add screenshots here.
-
-Example:
-
-```
-screenshots/homepage.png
-```
-
-```md
-![Homepage](screenshots/homepage.png)
-```
-
----
 
 ## 🎯 Future Enhancements
 
